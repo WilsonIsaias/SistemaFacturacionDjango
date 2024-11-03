@@ -3,10 +3,6 @@
 # Edit at https://www.gitignore.io/?templates=django,visualstudiocode
 
 ### Django ###
-inv
-fac
-cmp
-requirements.txt
 *.log
 *.pot
 *.pyc
