@@ -45,13 +45,13 @@
       rel="stylesheet"
     />
   </head>
-  <body id="page-top" class="bg-gradient-primary">
+  <body id="page-top" class="bg-purple">
     {% block side_bar %}
     <!-- Page Wrapper -->
     <div id="wrapper">
       <!-- Sidebar -->
       <ul
-        class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+        class="navbar-nav bg-purple sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         <!-- Sidebar - Brand -->
@@ -244,7 +244,7 @@
           <!-- Begin Page Content -->
           <div class="container-fluid">
             <!-- Page Heading -->
-            <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+            <h1 class="h3 mb-4 text-gray-800">Bienvenido {{ user.username }}</h1>
           </div>
           {% endblock %}
           <!-- /.container-fluid -->

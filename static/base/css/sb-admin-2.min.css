@@ -13370,3 +13370,8 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+.bg-purple {
+  background-color: #a46f77 !important;
+  background-size: cover;
+}
